@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  
+  background-color: aqua; 
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.weather-card{
+  background-color: white;
+  border: 2px solid black;
+} 
+
+.forecast-card{
+  background-color: white;
+  border: 2px solid black;
+}
