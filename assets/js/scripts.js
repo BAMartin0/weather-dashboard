@@ -45,7 +45,7 @@ function addCityButton(city) {
 // Function to get current weather data for a given city
 function getCurrentWeatherData(cityName) {
   // Construct the request URL for current weather data
-  let requestUrl = `http://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=imperial&appid=${apiKey}`;
+  let requestUrl = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=imperial&appid=${apiKey}`;
 
   // Fetch data from the API
   fetch(requestUrl)
