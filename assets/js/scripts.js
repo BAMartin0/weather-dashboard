@@ -107,7 +107,7 @@ function renderCurrentWeatherCard(currentData) {
   // Populate the weather card with data
   currentWeatherCard.innerHTML = `
     <h2>Today's Weather</h2>
-    <h3>${currentData.name} ${date} <img id="wicon" src="http://openweathermap.org/img/w/${icon}.png" alt="Weather icon"></h3>
+    <h3>${currentData.name} ${date} <img id="wicon" src="https://openweathermap.org/img/w/${icon}.png" alt="Weather icon"></h3>
     <p>Temperature: ${temperature}</p>
     <p>Humidity: ${humidity}</p>
     <p>Wind Speed: ${windSpeed}</p>
@@ -139,7 +139,7 @@ function renderForecastWeatherCards(forecastData) {
 
       forecastWeatherCard.innerHTML = `
         <h2>5 Day Forecast</h2>
-        <h3>${date} <img id="wicon" src="http://openweathermap.org/img/w/${icon}.png" alt="Weather icon"></h3>
+        <h3>${date} <img id="wicon" src="https://openweathermap.org/img/w/${icon}.png" alt="Weather icon"></h3>
         <p>Temperature: ${temperature}</p>
         <p>Humidity: ${humidity}</p>
         <p>Wind Speed: ${windSpeed}</p>
